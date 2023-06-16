@@ -6,13 +6,14 @@
  * Return: Always 0 (Success)
  */
 
-int main() {
-char letter = 'a';
+	int main(void) 
+{
+		char letter = 'a';
 
-while (letter <= 'z') {
-putchar(letter); // Use putchar instead of printf
-letter++;
+		while (letter <= 'z') {
+			putchar(letter); // Use putchar instead of printf
+			letter++;
 }
 
-return 0;
+	return (0);
 }
