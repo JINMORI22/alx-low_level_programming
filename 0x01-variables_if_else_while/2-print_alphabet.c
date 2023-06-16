@@ -11,7 +11,7 @@
 		char letter = 'a';
 
 		while (letter <= 'z') {
-			putchar(letter); // Use putchar instead of printf
+			putchar(letter);
 			letter++;
 }
 
