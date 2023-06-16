@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -6,13 +6,13 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
+int main() {
 char letter = 'a';
-while (letter <= 'z')
-{
-	printf("%c", letter);
-	letter++;
+
+while (letter <= 'z') {
+putchar(letter); // Use putchar instead of printf
+letter++;
 }
-return (0);
+
+return 0;
 }
