@@ -10,14 +10,14 @@ int main(void)
 {
 	char lowercase = 'a';
 	char uppercase = 'A';
-		while (lowercase <= 'z')
+	while (lowercase <= 'z')
 {
-	putchar(lowercase++);
+		putchar(lowercase++);
 }
-		while (uppercase <= 'Z')
+	while (uppercase <= 'Z')
 {
-	putchar(uppercase++);
+		putchar(uppercase++);
 }
-	putchar('\n');
-		return (0);
+		putchar('\n');
+	return (0);
 }
