@@ -6,7 +6,8 @@
  * Return: Always 0 (Success)
  */
 
-int main() {
+int main()
+{
 char string[] = "_putchar\n";
 int i = 0;
 while (string[i] != '\0')
