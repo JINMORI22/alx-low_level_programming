@@ -1,13 +1,10 @@
 #include "main.h"
-
 /**
- *  * reset_to_98 - takes a pointer to an int as parameter and
- *   * updates the value it points to to 98.
- *    *
- *     * @n: int to update
- *      *
- *       * Return: Always 0 (Success)
- *        */
+*  reset_to_98 - takes the pointer and updates the value
+*  @n: int to check
+*  Owned By Bwave/Bright
+*  Return: 0 is success
+*/
 
 void reset_to_98(int *n)
 {
